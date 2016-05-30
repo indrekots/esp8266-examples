@@ -28,8 +28,8 @@ void setup() {
   // Connect to WiFi network
   Serial.println();
   Serial.println();
-  Serial.print("Connecting to ");
-  Serial.println(ssid);
+  Serial.print("Connecting to WIFI network");
+  //Serial.println(ssid);
 
   WiFi.begin(ssid, password);
   
